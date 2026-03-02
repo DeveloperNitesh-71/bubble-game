@@ -1,0 +1,105 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(219, 252, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav p{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    max-height: 600px;
+    overflow: hidden;
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+main div{
+    color: white;
+    font-weight: 500;
+    background-color: rgb(1, 73, 1);
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.scoreBack{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoreboard{
+    height: max-content;
+    width: max-content;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.scoreboard button{
+    padding: 5px 20px;
+    border: 1px solid black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    font-weight: 600;
+
+}
